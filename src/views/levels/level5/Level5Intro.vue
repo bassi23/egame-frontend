@@ -1,0 +1,57 @@
+<template>
+  <div class="fixed level5-garden">
+    <img
+      src="/images/whale.png"
+      alt="Whale"
+      class="character character_position_top character_animation_top character_horizontal_flip"
+      style="width: 20rem; height: auto"
+    >
+    <img
+      src="/images/level5/balina.png"
+      alt="Balina"
+      class="character character_position_bottom character_animation_bottom character_horizontal_flip"
+      style="width: 20rem; height: auto"
+    >
+    <div class="introContainer">
+      <level-intro
+        title="Garten des Wissens"
+        :dialouge="dialouge"
+        link="/level/5/learning-strategy-assessment/intro"
+      />
+    </div>
+  </div>
+</template>
+
+<script>
+import LevelIntro from '@/components/intro/LevelIntro.vue'
+
+export default {
+  name: 'Level5Intro',
+  components: {
+    LevelIntro,
+  },
+  data() {
+    return {
+      dialouge: [
+        {
+          text: 'Balina: Im Wissensbuch steht, dass dieser Ort mit seinen Quellen ganz Regulatia mit Wissen versorgt und somit einen unendlichen Quell der Weisheit darstellt.',
+          position: 'left',
+        },
+        {
+          text: 'Zivo: Ich bin Zivo, der Wächter des Gartens. Es ist etwas Schreckliches passiert. Die Quellen versorgen Regulatia nicht mehr mit Wissen. Bitte, du musst herausfinden, was los ist. Sonst sind wir alle verloren…',
+          position: 'left',
+        },
+      ],
+    }
+  },
+  methods: {
+  },
+}
+</script>
+
+<style lang="scss" scoped>
+@import '@/assets/scss/main.scss';
+@import '@/assets/scss/background.scss';
+@import '@/assets/scss/character.scss';
+
+</style>
