@@ -1,0 +1,122 @@
+.fixed {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.stretched {
+  display: flex;
+  flex-direction: column;
+  // align-items: flex-start;
+  gap: 2rem;
+  // flex-wrap: inherit;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 5rem;
+  height: 100%;
+}
+
+.main-bg {
+  background-color: rgba(255, 255, 255, 0.568);
+  background-image: url('/public/images/main.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.start-bg {
+  background-color: rgba(255, 255, 255, 0.568);
+  background-image: url('/public/images/start.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.level1-endless-ocean {
+  background-color: rgba(255, 255, 255, 0.568);
+  background-image: url('/public/images/level1/level1-endless-ocean.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.level2-palace-garden {
+  background-color: rgba(255, 255, 255, 0.568);
+  background-image: url('/public/images/level2/level2-palace-garden.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.level2-ancient-ruins {
+  background-color: rgba(255, 255, 255, 0.568);
+  background-image: url('/public/images/level2/level2-ancient-ruins.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.level2-former-treasury {
+  background-color: rgba(255, 255, 255, 0.568);
+  background-image: url('/public/images/level2/level2-former-treasury.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.level2-ship-wreck {
+  background-color: rgba(255, 255, 255, 0.568);
+  background-image: url('/public/images/level2/level2-ship-wreck.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.level3-reef {
+  background-color: rgba(255, 255, 255, 0.568);
+  background-image: url('/public/images/level3/level3-reef.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.level4-cave-of-stress {
+  background-color: rgba(255, 255, 255, 0.568);
+  background-image: url('/public/images/level4/level4-cave-of-stress.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.level5-garden {
+  background-color: rgba(255, 255, 255, 0.568);
+  background-image: url('/public/images/level5/level5-garden.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.level6-coral-tower {
+  background-color: rgba(255, 255, 255, 0.568);
+  background-image: url('/public/images/level6/level6-coral-tower.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

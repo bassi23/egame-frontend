@@ -1,0 +1,128 @@
+@import "@/assets/scss/variables";
+
+.heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 auto;
+  padding: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #62a6b8;
+  border-radius: 1rem;
+  max-width: max-content;
+  box-shadow: inset 0 0 3px $dark;
+}
+
+.description {
+  margin: 0 auto;
+  width: 70%;
+  color: $dark;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.question {
+  text-align: left;
+  max-width: max-content;
+  font-weight: 450;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.375em;
+  background-color: #51b9d6;
+  color: white;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.intro-container {
+  background: url('/public/images/intro.png') no-repeat center;
+  background-size: contain;
+  display: flex;
+  // flex-direction: column;
+  min-width: 30rem;
+  max-width: 30rem;
+  min-height: 20rem;
+  max-height: 20rem;
+  box-sizing: border-box;
+  text-align: justify;
+  padding: 4rem 4rem;
+  letter-spacing: 1px;
+  line-height: 1.2rem;
+  font-size: 0.9rem;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.outro-container {
+  width: 70%;
+  padding: 5rem 5rem;
+  line-height: 2rem;
+}
+
+.outro-container p {
+  border-left: 0.5em solid #fad324;
+  background-color:rgba(255,255,255,0.5);
+  padding: 0.5em;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.outro-container p:hover {
+  background-color:rgba(250, 211, 36, 0.5);
+  // opacity: 0.5;
+}
+
+.box {
+  background-color: rgb(105, 181, 202, .8);
+  padding: 2rem;
+  box-shadow: inset 0 0 3px #222020;
+  border-radius: .5rem;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
+.chart-doughnut {
+  padding: 2rem;
+  background-color: #69b5ca;
+  padding: 2rem;
+  box-shadow: inset 0 0 3px #222020;
+  border-radius: .5rem;
+}
+
+.h1 {
+  padding-top: 2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.p {
+  font-size: medium;
+  font-weight: 550;
+  text-align: left;
+  line-height: 2rem;
+}
+
+.image {
+  justify-content: center;
+  padding-left: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.introContainer {
+  text-align: center;
+}
